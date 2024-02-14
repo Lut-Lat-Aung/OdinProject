@@ -6,11 +6,18 @@ h1{
     width: 230px;
     margin-left: 30px;
     margin-top: 10px;
+    
+  filter: grayscale(1);
+}
+
+.image:hover {
+    
+  filter: grayscale(0);
 }
 
 .contentbox{
 
-    border: 10px solid black;
+    /* border: 10px solid black; */
 }
 
 .Name{
@@ -26,5 +33,5 @@ div{
 }
 
 Bold{
-    
+
 }
