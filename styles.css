@@ -3,6 +3,28 @@ h1{
 }
 
 .image{
-    height: 30px;
-    width: 30px;
+    width: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contentbox{
+
+    border: 10px solid black;
+}
+
+.Name{
+    margin-left: 110px;
+}
+
+.Name1{
+    margin-left: 195px;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+Bold{
+    
 }
