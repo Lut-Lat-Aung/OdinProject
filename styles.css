@@ -31,36 +31,30 @@ h1{
 .image{
     width: 230px;
     height: 210px;
-    margin-left: 30px;
-    margin-top: 10px;
     border-radius: 30px;
-    
-  filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .image:hover {
-    width: 250px;
-    height: 230px;
-    transition: 1s ease-in-out;
+    width: 240px;
+    height: 220px;
+    transition: 0.75s ease-in-out;
     filter: grayscale(0);
 }
 
-.contentbox{
 
-    /* border: 10px solid black; */
+.column{
+    display: inline-block;
+    margin-left: 30px;
 }
 
 .Name{
-    margin-left: 110px;
+    text-align: center;
     
 }
 
-.Name1{
-    margin-left: 200px;
-}
-
-div{
-    margin-bottom: 20px;
+.contentbox{
+    margin-top: 150px;
 }
 
 .EndScreen{
@@ -73,7 +67,18 @@ div{
     margin-top: 100px;
 }
 
-
+header{
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #111;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
 
 footer{
     position: absolute;
